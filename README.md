@@ -1,59 +1,35 @@
-# Front
+📊 CRM UI (Angular) – Arquitectura Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
+Implementación de una interfaz tipo CRM desarrollada en Angular, enfocada en la construcción de componentes reutilizables, diseño de layouts modulares y estructuración de un frontend escalable.
 
-## Development server
+🔗 Demo:
+https://frabjous-custard-e8d35b.netlify.app/#/cliente/100100555
 
-To start a local development server, run:
+🚀 Características principales
+Diseño de interfaz tipo CRM con enfoque empresarial
+Arquitectura basada en componentes reutilizables
+Layout modular para escalabilidad y mantenimiento
+Navegación estructurada por vistas (cliente, detalle, etc.)
+Separación clara entre presentación y lógica de UI
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🛠️ Tecnologías utilizadas
+Angular (v17+)
+TypeScript
+TailwindCSS / DaisyUI / Bootstrap
+Consumo simulado de datos (mock data)
+🧠 Enfoque técnico
 
-## Code scaffolding
+El proyecto se diseñó priorizando escalabilidad y mantenibilidad del frontend:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Organización modular por features
+Reutilización de componentes UI (cards, tablas, layouts)
+Separación de responsabilidades en la capa de presentación
+Estructura preparada para integración futura con APIs reales
+📌 Objetivo del proyecto
 
-```bash
-ng generate component component-name
-```
+Este proyecto fue desarrollado como base de arquitectura frontend para aplicaciones empresariales tipo CRM, con el objetivo de:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Definir una estructura escalable en Angular
+Practicar diseño de interfaces complejas
+Simular escenarios reales de aplicaciones de negocio
