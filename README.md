@@ -14,6 +14,7 @@ Separación clara entre presentación y lógica de UI
 
 
 🛠️ Tecnologías utilizadas
+
 Angular (v17+)
 TypeScript
 TailwindCSS / DaisyUI / Bootstrap
